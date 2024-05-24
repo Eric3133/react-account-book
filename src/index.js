@@ -4,6 +4,7 @@ import './index.css';
 import sum from '@/test';
 import { RouterProvider } from 'react-router-dom';
 import router from './router';
+import './theme.css';
 
 sum(1, 2); // 3
 console.log(sum(1, 2));
